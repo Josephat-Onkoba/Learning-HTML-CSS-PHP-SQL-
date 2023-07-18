@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    flex-grow: 1;
+  }
+  
+  aside {
+    background-color: #f1f1f1;
+    padding: 10px;
+    height: 30vh;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    aside {
+      margin-bottom: 20px;
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
